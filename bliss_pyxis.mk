@@ -5,14 +5,14 @@
 #
 
 # Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/bliss/config/common.mk)
 
 # Inherit from pyxis device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := pyxis
-PRODUCT_NAME := arrow_pyxis
+PRODUCT_NAME := bliss_pyxis
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
