@@ -42,6 +42,10 @@
 #define FOD_ERROR 8
 #define FOD_ERROR_VENDOR 6
 
+#define FOD_SENSOR_X 455
+#define FOD_SENSOR_Y 1920
+#define FOD_SENSOR_SIZE 173
+
 namespace vendor {
 namespace lineage {
 namespace biometrics {
